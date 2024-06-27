@@ -1,0 +1,64 @@
+settings-server:
+  max-members-clan: 30
+  min-clan-name: 5
+  max-clan-name: 128
+  max-clan-roles: 12
+  mob-kill-rating: 3
+
+clan:
+  chat: "&aКЛАН-ЧАТ &f| &7%player%: &9%message%"
+  symbol: "#"
+
+commands-format:
+  - "&8| &f/clan create (Название) - &6Создать клан. (100.000$)"
+  - "&8| &f/clan exclude (Игрок) - &6Исключить участника из клана."
+  - "&8| &f/clan invite (Игрок) - &6Отправить приглашение на вступление в клан."
+  - "&8| &f/clan role-create (Название) - &6Добавить роль в клан."
+  - "&8| &f/clan role-remove (ИД) - &6Удалить роль из клана."
+  - "&8| &f/clan edit-role (ИД) (Название) - &6Редактировать роль."
+  - "&8| &f/clan set-member-role (Игрок) (ИД) - &6Установить роль игроку в Вашем клане."
+  - "&8| &f/clan home-create (Название) - &6Создать точку дома для клана."
+  - "&8| &f/clan home-remove (ИД) - &6Удалить точку дома."
+  - "&8| &f/clan delete - &6Удалить клан."
+  - "&8| &f/clan leave - &6Уйти из клана."
+
+clan-description-in-gui:
+  - "&7 "
+  - "&8| &fНазвание клана: %clan_name%"
+  - "&8| &fВладелец: &7%clan_owner%"
+  - "&8| &fPvP: %clan_pvp_boolean%"
+  - "&8| &fВалюта: %clan_currency%"
+  - "&8| &fРейтинг: %clan_rating%"
+  - "&7 "
+
+leave-message:
+  - "&7 "
+  - "&7[&6Нажмите на это сообщение, чтобы подтвердить действие&7]"
+  - "&7 "
+
+invite-message:
+  - "&7 "
+  - "&7Вас пригласили в клан - %clan_name%"
+  - "&fВалюта: &d%clan_currency%"
+  - "&fРейтинг: &e%clan_rating%"
+  - "&7 "
+  - "&7[&aНажмите на это сообщение, чтобы подтвердить действие&7]"
+
+kill-mobs:
+  - ZOMBIE
+
+messages:
+  create-clan: "&7Вы создали клан - %string_value%"
+  delete-clan: "&7Вы удалили клан."
+  add-member: "&7Вы отправили приглашение участнику - &a%string_value% &7на вступление к себе в клан."
+  remove-member: "&7Вы исключили участника &a%string_value% &7из своего клана."
+  clan-pvp-off: "&7Клановое ПВП выключено. Вы не можете ударить своего соклана."
+  role-add: "&7Вы добавили новую роль - %string_value% &7в клан."
+  role-remove: "&7Вы удалили роль - %string_value% &7из клана."
+  edit-role: "&7Вы изменили название этой роли на - %string_value%"
+  set-member-role: "&7Вы установили новую роль этому участнику в клане на - %string_value%"
+  add-clan-home: "&7Вы создали точку дома с названием - %string_value%"
+  remove-clan-home: "&7Вы удалили точку дома - %string_value%"
+  add-clan-desc: "&7Вы добавили новую строчку описания к клану."
+  remove-clan-desc: "&7Вы удалили строчку из описания клана."
+  clan-leave: "&7Вы успешно покинули клан."

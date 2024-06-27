@@ -1,0 +1,8 @@
+name: Clans
+version: '1.0-SNAPSHOT'
+main: dev.r1nex.clans.Clans
+depend:
+  - Vault
+api-version: '1.16'
+commands:
+  clan: {}

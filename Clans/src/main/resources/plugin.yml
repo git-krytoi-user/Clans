@@ -1,0 +1,8 @@
+name: Clans
+version: '${project.version}'
+main: dev.r1nex.clans.Clans
+depend:
+  - Vault
+api-version: '1.16'
+commands:
+  clan: {}
